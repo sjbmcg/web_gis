@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Leeds Blue Plaques Map</title>  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="jscoord-1.1.1.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a href="../index.html" id="backButton">← Back</a>
+
+  <section id="intro">
+    <h1>Leeds Blue Plaques Map</h1>
+    <p>
+      Blue Plaques are public signs that celebrate buildings and people of
+      historical importance. London's scheme is run by English Heritage;
+      Leeds's scheme has over 100 plaques.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p> Below are some pictures on blue plaques across Leeds </p>
+    <div class="carousel">
+      <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="../images/samuel_smiles.jpg" alt="Leeds Blue Plaque - Samuel Smiles">
+            <p>Samuel Smiles (1812-1905) the great propagandist of Victorian values through his books, 'Self-Help', 'Character', 'Thrift' and 'Duty', inspired by his lectures to Leeds working men in 1845. He worked in Leeds 1838-58 as a newspaper editor, doctor and then railway secretary.</p>
+            <p class="image-credit">Image: Open plaques </p>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/leeds_civic_hall.jpg" alt="Leeds Blue Plaque - Leeds Civic Hall">
+            <p>The plaque recognizes the hall as a monumental structure serving the city's expanding municipal needs, designed by architect Vincent Harris.</p>
+            <p class="image-credit">Image: Leeds City Council</p>
+          </div>
+          <div class="gallery-item">
+            <img src="../images/william_gascoigne.jpg" alt="Leeds Blue Plaque - William Gascoigne">
+            <p>William Gascoigne pioneer of modern precision astronomy, inventor of the telescopic sight and the telescope micrometer lived at New Hall on this site. He lost his life in the English Civil War at the age of 32. c.1612-1644</p>
+            <p class="image-credit">Image: Leeds Civic Trust</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  <div id="mapdiv"></div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

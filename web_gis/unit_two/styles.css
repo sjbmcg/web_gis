@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #0053a0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #0053a0;
+  margin: 20px 0 15px 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+#mapdiv {
+  height: 600px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+/* Kevin Powell - https://www.youtube.com/watch?v=gn0OaxS1OdY&ab_channel=KevinPowell tutorials
+https://www.youtube.com/watch?v=ikbwJy84f2Y&ab_channel=OnlineTutorials (originally wanted to do this */
+#gallery .gallery-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+#gallery .gallery-item {
+  flex: 0 0 80%;
+  max-width: 400px;
+}
+
+#gallery .gallery-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+#gallery .gallery-item p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.image-credit {
+  font-size: 12px;
+  color: #777;
+  text-align: right;
+  margin-top: 4px;
+  font-style: italic;
+}
+
+#backButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: #0053a0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  #mapdiv {
+    height: 400px;
+  }
+  
+  #gallery .gallery-item {
+    flex: 0 0 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+  
+  #gallery .gallery-item {
+    flex: 0 0 100%;
+  }
+}

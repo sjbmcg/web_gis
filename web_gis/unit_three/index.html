@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hurricane Tweets Analysis</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+</head>
+<body>
+  <a href="../index.html" id="back-btn">← Back</a>
+  
+  <header>
+    <h1>Hurricane Tweets Analysis</h1>
+    <p>Analyze tweet patterns during hurricane events</p>
+  </header>
+
+  <div class="controls">
+    <div class="button-group">
+      <button id="all-btn" class="query-btn active">International tweets excluding USA</button>
+      <button id="worldwide-btn" class="query-btn">Worldwide (including USA)</button>
+      <button id="emergency-btn" class="query-btn">Emergency Tweets</button>
+    </div>
+    <div class="button-group">
+      <button id="clear-btn">Clear Map</button>
+    </div>
+  </div>
+
+  <div id="status-container">
+    <div id="status"></div>
+  </div>
+
+  <div class="content">
+    <div id="mapdiv"></div>
+  </div>
+
+  <div id="legend">
+    <h3>Analysis Types</h3>
+    <div class="legend-item">
+      <span class="legend-color legend-blue"></span> Tweets excluding USA
+    </div>
+    <div class="legend-item">
+      <span class="legend-color legend-green"></span> Worldwide Tweets
+    </div>
+    <div class="legend-item">
+      <span class="legend-color legend-red"></span> Emergency Related
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

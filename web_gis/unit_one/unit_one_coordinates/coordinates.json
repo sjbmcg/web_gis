@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Garstang Building a)",
+      "latitude": 53.8042,
+      "longitude": -1.5552,
+      "description": "It houses laboratories, teaching rooms, and research spaces, particularly for virology and other biological disciplines."
+    },
+    {
+      "name": "Garstang Building b)",
+      "latitude": 53.8046,
+      "longitude": -1.5553,
+      "description": "It houses laboratories, teaching rooms, and research spaces, particularly for virology and other biological disciplines."
+    },
+    {
+      "name": "The Edge a)",
+      "latitude": 53.8042,
+      "longitude": -1.5525,
+      "description": "Fitness center at the University of Leeds featuring a pool, climbing, classes & more"
+    },
+    {
+      "name": "Roger Stevens",
+      "latitude": 53.8050,
+      "longitude": -1.5548,
+      "description": "The Roger Stevens Building is found at the heart of our campus, overlooking a decorative pond, which is home to various flora and fauna, including Mallard ducks and ducklings."
+    },
+    {
+      "name": "The Edge b)",
+      "latitude": 53.8040,
+      "longitude": -1.5535,
+      "description": "Fitness center at the University of Leeds featuring a pool, climbing, classes & more"
+    }
+  ]
+  
