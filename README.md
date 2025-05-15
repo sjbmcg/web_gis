@@ -1,6 +1,6 @@
-# Southeast Asia Earthquake Web GIS
+# Web GIS
 ## Overview
-Interactive mapping tool visualizing earthquake data across Southeast Asia and Eastern Russia. Created in response to recent Myanmar seismic activity and for travel planning to Russia.
+A progressive journey from frontend Leaflet implementations to sophisticated backend geospatial analysis. Features Hurricane Sandy tweet visualization and Southeast Asian earthquake monitoring.
 Features
 
 Interactive earthquake map with magnitude/depth filters
