@@ -1,11 +1,6 @@
 # Web GIS
 ## Overview
 A progressive journey from frontend Leaflet implementations to sophisticated backend geospatial analysis. Features Hurricane Sandy tweet visualization and Southeast Asian earthquake monitoring.
-Features
-
-Interactive earthquake map with magnitude/depth filters
-Focus on Myanmar and Eastern Russia regions
-Data download capability
 
 ## Technical Notes
 
