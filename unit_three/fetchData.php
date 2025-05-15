@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$pgsqlOptions = "host = 'localhost' dbname = 'geog5871' user = 'geog5871student' password = 'Geibeu9b'";
+$pgsqlOptions = "host = 'localhost' dbname = 'X' user = 'X' password = 'X'";
 $dbconn = pg_connect($pgsqlOptions) or die ('connection failure');
 
 $queryType = isset($_GET['type']) ? $_GET['type'] : 'all';
